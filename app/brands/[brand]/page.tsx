@@ -1,6 +1,3 @@
-'use client'
-
-import { useParams } from 'next/navigation'
 import { Clock, ChevronRight, Award, Calendar, MapPin } from 'lucide-react'
 import Link from 'next/link'
 import TopBar from '../../components/TopBar'
@@ -35,9 +32,12 @@ const brandData: Record<string, { name: string; founded: string; origin: string;
   },
 }
 
-export default function BrandPage() {
-  const params = useParams()
-  const brandSlug = params.brand as string
+export function generateStaticParams() {
+  return Object.keys(brandData).map((brand) => ({ brand }))
+}
+
+export default function BrandPage({ params }: { params: { brand: string } }) {
+  const brandSlug = params.brand
   const brand = brandData[brandSlug] || {
     name: brandSlug.charAt(0).toUpperCase() + brandSlug.slice(1).replace(/-/g, ' '),
     founded: 'N/A',

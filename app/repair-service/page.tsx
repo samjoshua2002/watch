@@ -11,7 +11,7 @@ const services = [
   { title: 'Complete Service', price: 'From ₹ 15,000', desc: 'Full disassembly, cleaning, lubrication, and regulation of your timepiece.', time: '4-6 weeks' },
   { title: 'Battery Replacement', price: 'From ₹ 2,500', desc: 'Quick battery replacement with water resistance testing.', time: 'Same day' },
   { title: 'Strap Replacement', price: 'From ₹ 5,000', desc: 'Genuine leather, rubber, or metal bracelet replacement.', time: '1-2 days' },
-  { title: 'Polishing & Refinishing', price: 'From ₹ 8,000', desc: 'Restore your watch's original luster with professional polishing.', time: '1-2 weeks' },
+  { title: 'Polishing & Refinishing', price: 'From ₹ 8,000', desc: "Restore your watch's original luster with professional polishing.", time: '1-2 weeks' },
   { title: 'Water Resistance Test', price: 'From ₹ 3,500', desc: 'Pressure testing to ensure your watch maintains its rated depth.', time: 'Same day' },
   { title: 'Movement Repair', price: 'Custom Quote', desc: 'Expert diagnosis and repair of mechanical and quartz movements.', time: '2-4 weeks' },
 ]

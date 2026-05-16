@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-6 md:pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] md:text-xs text-white/40">
-          <p>&copy; 2026 Ethos Watch Boutiques. All rights reserved.</p>
+          <p>&copy; 2026 Ethos Watch Boutiques. All rights reserved. Developed by samjoshua.</p>
           <div className="flex gap-3 md:gap-4 text-xl md:text-2xl">
             <i className="fab fa-cc-visa"></i>
             <i className="fab fa-cc-mastercard"></i>

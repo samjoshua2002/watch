@@ -1,19 +1,22 @@
 # Ethos Watch Boutiques - Next.js
 
-A luxury watch e-commerce website built with Next.js 14, React, TypeScript, and Tailwind CSS.
+A premium luxury watch storefront built with Next.js 14, TypeScript, and Tailwind CSS. This polished landing experience showcases high-end watch collections, editorial stories, boutique locations, and an elegant responsive design.
 
-## Features
+## Project Preview
 
-- **Light Theme Design** — Clean, elegant white-based design matching the Ethos Watches aesthetic
-- **Responsive Navigation** — Top bar with contact info, header with logo/date/Rolex badge, sticky navbar with mobile menu
-- **Hero Slider** — Split layout with watch imagery and editorial content
-- **Article Cards** — Latest articles with badges (Review/Spotlight)
-- **Product Grids** — New arrivals and featured watches with pricing in ₹
-- **Boutique Locator** — Store image with city selector and Rolex clock
-- **Video Studios** — Dark section with video highlights
-- **Trending Articles** — Featured article layout with side cards
-- **Scroll Animations** — Fade-in effects on scroll
-- **Fully Responsive** — Mobile-first design with breakpoints
+![Homepage hero](./public/images/image.png)
+
+![Collection highlights](./public/images/image%20copy.png)
+
+![Lifestyle feature](./public/images/image%20copy%202.png)
+
+## Why this project is special
+
+- **Luxury UI** — Modern editorial layout inspired by premium watch boutiques
+- **Responsive by design** — Mobile-first flows with desktop refinements
+- **Dynamic sections** — Hero, articles, boutique locator, featured watches, studios, and trending stories
+- **Brand-focused styling** — Soft neutrals, gold accents, and premium typography
+- **Fast Next.js experience** — App Router powered static-friendly pages
 
 ## Tech Stack
 
@@ -21,41 +24,35 @@ A luxury watch e-commerce website built with Next.js 14, React, TypeScript, and 
 - React 18
 - TypeScript
 - Tailwind CSS
-- Lucide React (icons)
+- Lucide React icons
 
-## Getting Started
+## Setup
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
-### Installation
+### Install
 
-1. Navigate to the project directory:
 ```bash
 cd ethos-watches-nextjs
-```
-
-2. Install dependencies:
-```bash
 npm install
 ```
 
-3. Run the development server:
+### Run locally
+
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
-### Build for Production
+### Build for production
 
 ```bash
 npm run build
 ```
-
-This creates a static export in the `out` directory.
 
 ## Project Structure
 
@@ -63,43 +60,34 @@ This creates a static export in the `out` directory.
 ethos-watches-nextjs/
 ├── app/
 │   ├── components/
-│   │   ├── TopBar.tsx       # Contact bar with phone/WhatsApp
-│   │   ├── Header.tsx       # Logo, date, Rolex badge
-│   │   └── Navbar.tsx       # Navigation links + mobile menu
+│   │   ├── TopBar.tsx
+│   │   ├── Header.tsx
+│   │   └── Navbar.tsx
 │   ├── sections/
-│   │   ├── Hero.tsx         # Hero slider
-│   │   ├── Articles.tsx     # Latest articles grid
-│   │   ├── NewArrivals.tsx  # New arrivals product grid
-│   │   ├── Boutique.tsx     # Boutique locator section
-│   │   ├── FeaturedWatches.tsx # Featured products
-│   │   ├── Studios.tsx      # Video highlights (dark)
-│   │   ├── Trending.tsx     # Trending articles layout
-│   │   └── Footer.tsx       # Site footer
-│   ├── globals.css          # Global styles + Tailwind
-│   ├── layout.tsx           # Root layout with fonts
-│   └── page.tsx             # Main page composition
-├── public/                  # Static assets
-├── next.config.js           # Next.js config (static export)
-├── tailwind.config.ts       # Tailwind configuration
-├── tsconfig.json            # TypeScript config
-└── package.json             # Dependencies
+│   │   ├── Hero.tsx
+│   │   ├── Articles.tsx
+│   │   ├── NewArrivals.tsx
+│   │   ├── Boutique.tsx
+│   │   ├── FeaturedWatches.tsx
+│   │   ├── Studios.tsx
+│   │   ├── Trending.tsx
+│   │   └── Footer.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── images/          # Showcase screenshots and media
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
 ```
 
-## Customization
+## Notes
 
-### Colors
-Edit `tailwind.config.ts` to change the color palette:
-- `accent` — Primary accent color (crimson red)
-- `gold` — Rolex/gold elements
-- `primary` — Main text color
+- Replace the screenshot files in `public/images` to update the README preview images.
+- This project is ideal for luxury watch showroom experiences and editorial storefront demos.
 
-### Fonts
-The project uses:
-- **Inter** — UI elements, navigation, body text
-- **Playfair Display** — Editorial headings, dates
+## Developer
 
-Change in `app/layout.tsx`.
-
-## License
-
-MIT
+Built and developed by **samjoshua**.

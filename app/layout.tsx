@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'Ethos Watch Boutiques | India's Largest Luxury Watch Retailer',
-  description: 'Discover our curated collection of the world's finest timepieces. Authorized dealer for over 50 prestigious brands.',
+  title: "Ethos Watch Boutiques | India's Largest Luxury Watch Retailer",
+  description: "Discover our curated collection of the world's finest timepieces. Authorized dealer for over 50 prestigious brands.",
 }
 
 export default function RootLayout({
